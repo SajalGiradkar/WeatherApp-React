@@ -1,6 +1,7 @@
-It is fully dynamic weather app using weather api.
-React class component, Typescript,css,html 
-and fully Responsive
+## It is fully dynamic weather app using weather api.
+## Used React class component, Typescript,css and html 
+## fully Responsive
+## checkout package.json file to know what packages i use to built this project
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
