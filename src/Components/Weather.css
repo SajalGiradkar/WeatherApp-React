@@ -1,0 +1,132 @@
+.weather-container {
+    width: 100%;
+    min-height: 125vh;
+    background: rgba(0, 0, 0, 0.4) url('../images/weather.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    z-index: -1;
+    color: whitesmoke;
+}
+
+.current-data {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.todays-date {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 1rem;
+    position: relative;
+    right: 7rem;
+}
+
+.current-data h1 {
+    margin-top: 8rem;
+    font-size: 4.5rem;
+}
+
+.current-data .temp>div {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.current-data .temp img {
+    width: 9%;
+}
+
+.current-data .temp strong {
+    font-size: 9rem;
+    font-weight: 500;
+
+}
+
+.current-info span {
+    margin: 0 1rem;
+}
+
+.current-info .fa-location-arrow {
+    font-size: 1.3rem;
+}
+
+.current-data .temp h2 {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.forecast h1 {
+    margin: 2rem 1rem;
+}
+
+.weather-container .forecast {
+    padding: 1rem;
+}
+
+.forecast .forecast-box {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.forecast .forecast-box::-webkit-scrollbar {
+    display: none;
+}
+
+.forecast-day {
+    min-width: 15rem;
+    align-self: stretch;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.1);
+    padding-right: 3.5rem;
+    transition: .3s;
+}
+
+.forecast-day:hover {
+    background-color: rgba(128, 128, 128, 0.565);
+}
+
+.forecast-day h3 {
+    text-transform: capitalize;
+}
+
+.forecast strong {
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.forecast p {
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+
+.detail-table {
+    margin-top: 3.5rem;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.detail-table thead {
+    border-bottom: .1px solid gray;
+}
+
+.detail-table thead th {
+    padding: 1rem;
+    background-color: rgba(128, 128, 128, 0.2);
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.detail-table tbody tr td {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.7rem;
+}
